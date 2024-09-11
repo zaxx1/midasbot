@@ -1,41 +1,3 @@
-# Midas RWA BOT
-
-## Table Of Contents
-- [Midas RWA BOT](#midas-rwa-bot)
-  - [Table Of Contents](#table-of-contents)
-  - [Midas Airdrop](#midas-airdrop)
-  - [Prerequisite](#prerequisite)
-  - [BOT FEATURE](#bot-feature)
-  - [Setup \& Configure BOT](#setup--configure-bot)
-    - [Linux](#linux)
-  - [Setup Accounts](#setup-accounts)
-  - [Session Troubleshoot](#session-troubleshoot)
-  - [Query Troubleshoot](#query-troubleshoot)
-  - [Note](#note)
-  - [CONTRIBUTE](#contribute)
-  - [SUPPORT](#support)
-
-## Midas Airdrop
-New Airdrops: MIDAS
-
-🏷️ Reward : Confirmed 
-➡️ Register : MIDAS RWA (https://t.me/MidasRWA_bot/app?startapp=ref_3414bca6-7832-4c06-bf18-3ad17c11f2ca)
-➖ Tap
-➖ Complete Task
-➖ Done
-
-📌 Raised $8.7M
-📌 First RWA TAP TAP Game
-
-this game is still early, it only have tap, daily streak, and complete missions. Daily will be added later
-
-## Prerequisite
-
-- Git
-- Node JS
-- TELEGRAM_APP_ID & TELEGRAM_APP_HASH Get it from [Here](https://my.telegram.org/auth?to=apps) (REQUIRED IF YOU WANT USE SESSIONS)
-- Midas Account , Create [Here](https://t.me/MidasRWA_bot/app?startapp=ref_3414bca6-7832-4c06-bf18-3ad17c11f2ca) join and claim join reward
-
 ## BOT FEATURE
 
 - Multi Account With Proxy Support
@@ -50,7 +12,7 @@ this game is still early, it only have tap, daily streak, and complete missions.
 ### Linux
 1. clone project repo 
    ```
-   git clone https://github.com/Widiskel/midas-RWA-bot
+   git clone https://github.com/zaxx1/midasbot
    ``` 
    and cd to project dir 
    ```
@@ -87,55 +49,6 @@ this game is still early, it only have tap, daily streak, and complete missions.
    npm run start
    ```
    
-### Windows
-1. Open your `Command Prompt` or `Power Shell`.
-2. Clone project repo 
-   ```
-   git clone https://github.com/Widiskel/midas-RWA-bot
-   ``` 
-   and cd to project dir 
-   ```
-   cd midas-RWA-bot
-   ```
-3. Run 
-   ```
-   npm instal
-   ```
-4. Run 
-   ```
-   npm i telegram@2.22.2
-   ```
-5. Navigate to `midas-bot` directory. 
-6. Make new folder named `accounts`.
-7. Navigate to `config` folder and rename `config_tmp.js` to `config.js` , `proxy_list_tmp.js` to `proxy_list.js`
-8. Now Open and configure `config.js` and `pxoxy_list.js`.
-9.  Now back to the `midas-bot` folder
-10. To start the app open your `Command Prompt` or `Power Shell` again and run 
-    ```
-    npm run start
-    ```
-
-## Update Bot
-
-To update bot follow this step :
-1. run 
-   ```
-   git pull
-   ```` 
-   or 
-   ```
-   git pull --rebase
-   ``` 
-   if error run 
-   ```
-   git stash && git pull
-   ```
-2. run 
-   ```
-   npm update
-   ```
-3. start the bot.
-
 ## Setup Accounts
 
 1. Run bot `npm run start`
